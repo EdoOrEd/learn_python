@@ -49,7 +49,7 @@ class Man:
 man: Man = Man(name='Eduard')
 
 man2: Man = Man(name="Vasya")
-man(123)  # __call__
+man()  # __call__
 print(man)  # __repr__
 man.up_age(24)  # classmethod
 print(man.age)
